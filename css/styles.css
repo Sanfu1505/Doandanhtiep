@@ -3,9 +3,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
-
-               /*body styles*/
 
 body{
     background-image: url(../images/anh-nen-dai-duong-2k-cho-pc_110514952.jpg);
@@ -19,10 +18,11 @@ body{
 
 header {
     padding: 0 3rem;
-    height: 95vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 
 .header-title {
@@ -143,12 +143,52 @@ i:hover{
     border-radius: 5px;
     margin-left: 130px;
 }
-#introduce{
-    margin-bottom: 230px;
-    margin-top: 50px;
+
+.infomation {
+    margin-bottom: 150px;
 }
 
-                /*Footer styles*/
+                /*Skill style*/
+
+.progress-container {
+    width: 100%;
+    margin-top: 50px;
+}
+  
+.progress-text {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+  
+.progress-text span {
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 25px;
+    color: #fff;
+}
+  
+.progress-bar {
+    flex-grow: 1;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+  
+.progress {
+    height: 20px;
+    background-color: #1100f9;
+    width: 0;
+    transition: width 0.6s ease;
+}
+
+.container{
+    width: 1000px;
+    margin-left: 350px;
+    margin-bottom: 150px;
+}
+                /*Contact styles*/
 
 footer {
     background-color: #181f2937;
@@ -165,6 +205,7 @@ footer {
     font-size: 18px;
     padding: 50px;
     list-style: none;
+    line-height: 35px;
 }
 
 footer input[type=submit] {
