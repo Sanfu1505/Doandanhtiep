@@ -7,7 +7,7 @@
 }
 
 body{
-    background-image: url(../images/anh-nen-dai-duong-2k-cho-pc_110514952.jpg);
+    background-image: url(../images/backgroud.jpg);
     background-size: 100%;
     background-attachment: fixed;
     font-family: Arial, sans-serif;
@@ -40,10 +40,6 @@ header {
 
 .header-title img{
     width: 350px;
-}
-
-.text-box {
-    margin-bottom: 23px
 }
 
 .text-box p {
@@ -295,3 +291,4 @@ textarea[id=textarea] {
 }
 
 /* Responsive Styles*/
+
